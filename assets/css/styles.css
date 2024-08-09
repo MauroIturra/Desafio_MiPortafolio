@@ -1,0 +1,38 @@
+body {
+  background-color: #f1faee;
+}
+
+/*Header*/
+.Ilustrador_Web {
+  width: 100%;
+}
+
+.Texto_Presentacion {
+  text-align: start;
+  font-size: 14pt;
+}
+
+.Boton_Presentacion {
+  width: 13vw;
+  background-color: #1d3557;
+  font-size: 1vw;
+}
+
+@media (max-width: 770px) {
+  .Boton_Presentacion {
+    width: 100%;
+    font-size: 14pt;
+  }
+}
+/*Main*/
+.Img_Proyectos {
+  width: 100%;
+}
+
+/*Formulario*/
+.Enlace {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
