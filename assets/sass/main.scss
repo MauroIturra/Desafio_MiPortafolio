@@ -1,5 +1,10 @@
 body{
-    background-color: #f1faee;
+    background-color: #C9DABF;
+    font-family: "Roboto", sans-serif;
+}
+/*Navegacion*/
+.Peter_Parker{
+    width: 12vw;
 }
 /*Header*/
 .Ilustrador_Web{
@@ -11,14 +16,25 @@ body{
 }
 .Boton_Presentacion{
     width: 13vw;
-    background-color: #1d3557;
-    font-size: 1vw;    
+    background-color: #808D7C;
+    font-size: 1vw; 
+    border-color: #808D7C; 
+
+}
+.Boton_Presentacion:hover{
+    background-color: #5F6F65;
+    border-color: #5F6F65;
 }
 @media (max-width: 770px){
     .Boton_Presentacion{
         width: 100%;
         font-size: 14pt;
     }
+}
+/*Section*/
+.Iconos_FrontEnd{
+    width: 2.5vw;
+    height: 2.5vw;
 }
 /*Main*/
 .Img_Proyectos{
@@ -28,4 +44,9 @@ body{
 .Enlace{
     text-decoration: none;
     color: black;
+    
 }
+
+
+
+
