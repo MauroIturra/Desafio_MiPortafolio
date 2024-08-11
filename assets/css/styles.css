@@ -7,9 +7,10 @@ body {
   color: #5F6F65;
 }
 
-/*Navegacion*/
-.Peter_Parker {
-  width: 12vw;
+/*Formulario*/
+.Enlace {
+  text-decoration: none;
+  color: black;
 }
 
 /*Header*/
@@ -49,6 +50,26 @@ body {
     font-size: 14pt;
   }
 }
+/*Main*/
+.Img_Proyectos {
+  width: 100%;
+}
+
+.Img_Titulo {
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+/*Navegacion*/
+.Peter_Parker {
+  width: 12vw;
+}
+
+@media (max-width: 770px) {
+  .Peter_Parker {
+    width: 30vw;
+  }
+}
 /*Section Flexbox*/
 .box {
   display: flex;
@@ -81,7 +102,6 @@ body {
 .image_1_1 {
   width: 50px;
   height: 50px;
-  margin-left: 14vw;
 }
 
 .Titulo_Iconoss {
@@ -114,21 +134,6 @@ body {
     margin-bottom: 3vw;
     margin-left: 4vw;
   }
-}
-/*Main*/
-.Img_Proyectos {
-  width: 100%;
-}
-
-.Img_Titulo {
-  font-size: 1.2vw;
-  font-weight: 500;
-}
-
-/*Formulario*/
-.Enlace {
-  text-decoration: none;
-  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

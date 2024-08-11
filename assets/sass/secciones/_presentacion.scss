@@ -1,0 +1,33 @@
+/*Header*/
+.Ilustrador_Web{
+    width: 100%;
+}
+.Titulo_Principal_1{
+    font-weight: 800;
+}
+.Titulo_Principal_2{
+    color: #5F6F65;
+    font-weight: 800;
+}
+.Texto_Presentacion{
+    text-align: start;
+    font-size: 14pt;
+}
+.Boton_Presentacion{
+    width: 13vw;
+    background-color: #808D7C;
+    font-size: 1.2vw; 
+    border-color: #808D7C; 
+
+}
+.Boton_Presentacion:hover{
+    background-color: #5F6F65;
+    border-color: #5F6F65;
+}
+@media (max-width: 770px){
+    .Boton_Presentacion{
+        width: 100%;
+        font-size: 14pt;
+    }
+
+}
