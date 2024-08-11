@@ -10,7 +10,7 @@ body {
 /*Formulario*/
 .Enlace {
   text-decoration: none;
-  color: black;
+  color: #5F6F65;
 }
 
 /*Header*/
@@ -20,10 +20,11 @@ body {
 
 .Titulo_Principal_1 {
   font-weight: 800;
+  color: #5F6F65;
 }
 
 .Titulo_Principal_2 {
-  color: #5F6F65;
+  color: black;
   font-weight: 800;
 }
 
@@ -58,6 +59,7 @@ body {
 .Img_Titulo {
   font-size: 1.2vw;
   font-weight: 500;
+  color: #5F6F65;
 }
 
 /*Navegacion*/
